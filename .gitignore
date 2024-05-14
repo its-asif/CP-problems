@@ -1,0 +1,11 @@
+inputf.in
+outputf.in
+.vscode
+.cph
+*.exe
+*.exe~
+*.in
+*.in~
+*.bin
+*.bin~
+*.sublime-workspace
