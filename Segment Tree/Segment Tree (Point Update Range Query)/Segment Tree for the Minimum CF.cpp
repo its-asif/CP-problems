@@ -36,7 +36,7 @@ void upd( ll node, ll b, ll e, ll i, ll x){
 	if( b > i or e < i) return;
 
 	if( b == e and b == i){
-		t[node] = x;
+		t[node] = x;	
 		return;
 	}
 
