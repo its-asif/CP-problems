@@ -86,19 +86,6 @@ int main(){
 		cin >> arr[i];
 
 	build(1, 1, n);
-	// upd(1, 1, n, 2, 3);
-
-	// for (int i = 1; i < 10; ++i)
-	// {
-	// 	cout << minNum[i] <<' ';
-	// } cout << endl;
-	// for (int i = 1; i < 10; ++i)
-	// {
-	// 	cout << minCount[i] <<' ';
-	// } cout << endl;
-
-
-	// cout << ans.first << ' ' << ans.second << endl;
 
 	for (ll i = 0; i < m; ++i)
 	{
