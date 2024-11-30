@@ -31,15 +31,14 @@ int main(){
 	{
 		if( !vis[i] ) {
 			dfs(i);
+			cnt++;
 			v.push_back(i);
 		}
 	}
 
-	for (int i = 0; i < v.size()-1; ++i)
+	cout << cnt-1 << endl;
+	for (int i = 1; i < v.size(); ++i)
 	{
-		for (int j = i+1; j < v.size(); ++j)
-		{
-			cout << v[i] << ' ' << v[j] << endl;
-		}
+		cout << v[0] << ' ' << v[i] << endl;
 	}
 }
